@@ -37,14 +37,15 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-Stream = require('node-rtsp-stream')
-stream = new Stream({
-    name: 'name',
-    streamUrl: 'rtsp://jack:UUnv9njxg123!!@192.168.196.86.30/cam/realmonitor?channel=4&subtype=0',
-    wsPort: 9998,
-    ffmpegOptions: { // options ffmpeg flags
-      "-r": "25"
-       
-    }
-  })
+//Stream = require('node-rtsp-stream')
+//stream = new Stream({
+ //   name: 'name',
+ //   streamUrl: 'rtsp://admin:UUnv9njxg123@10.10.10.3/cam/realmonitor?channel=1&subtype=0',
+ //   wsPort: 9998,
+ //   ffmpegOptions: { // options ffmpeg flags
+ //     "-r": "25"
+ //      
+ //   }
+ // })
+  
 module.exports = app;
