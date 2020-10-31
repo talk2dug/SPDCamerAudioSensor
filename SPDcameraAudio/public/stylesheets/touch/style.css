@@ -1,0 +1,20 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-size: 800px 600px;
+}
+
+a {
+  color: #00B7FF;
+}
+#main{
+  max-width:800px;
+  min-width: 480px;
+  height:480px;
+  margin: 0%;
+padding: 0%;
+}
+img{
+  max-width: 800px;
+  max-height: 480px;
+}
